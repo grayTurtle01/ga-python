@@ -1,12 +1,14 @@
 """
 This is the file for the unittest
 """
+
 import unittest
 from zandbox import fizz_buzz
 
 
 class FizzBuzzTests(unittest.TestCase):
     """This the class for unittest"""
+
     def test_1(self):
         """fizz_buzz(3) --> fizz"""
         self.assertEqual(fizz_buzz(3), "fizz")

@@ -2,7 +2,7 @@
     This the module docstring
 """
 
-print("Hello world" )
+print("Hello world")
 
 
 def fizz_buzz(i):
