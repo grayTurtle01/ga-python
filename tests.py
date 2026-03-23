@@ -24,7 +24,7 @@ class FizzBuzzTests(unittest.TestCase):
 
 ## unitests only for pytest
 def test_4():
-    """x"""
+    """fizz_buzz(1) --> 1"""
     assert fizz_buzz(1) == 1
 
 
