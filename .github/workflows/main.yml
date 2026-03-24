@@ -1,4 +1,4 @@
-name: "Hola Python"
+name: "Hola Python 2"
 on: push
 jobs:
   tarea_1:

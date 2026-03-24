@@ -1,0 +1,16 @@
+name: Hola Python 1
+
+on: push
+
+jobs:
+	primera_tarea:
+		runs-on: ubuntu-latest
+
+		steps:
+			- name: "Copiar el repo a la VM"
+				uses: actions/checkout@v2
+				
+			- name: "get version"
+				run:	|
+					pip install pytest
+					pytest
