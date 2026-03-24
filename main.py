@@ -1,8 +1,6 @@
 """
-    This the module docstring
+This the module docstring
 """
-
-print("Hello world")
 
 
 def fizz_buzz(i):

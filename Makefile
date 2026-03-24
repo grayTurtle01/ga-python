@@ -1,8 +1,8 @@
 fmt:
-	black zandbox.py tests.py
+	black main.py tests.py
 
 linter:
-	pylint zandbox.py tests.py
+	pylint main.py tests.py
 	
 tests:
-	python3 -m unittest tests.py
+	pytest tests.py

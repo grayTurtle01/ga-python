@@ -3,7 +3,7 @@ This is the file for the unittest
 """
 
 import unittest
-from zandbox import fizz_buzz
+from main import fizz_buzz
 
 
 class FizzBuzzTests(unittest.TestCase):
