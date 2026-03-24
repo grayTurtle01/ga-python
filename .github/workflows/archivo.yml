@@ -1,4 +1,4 @@
-name: Hola Python 1
+name: Hola Python 3
 on: push
 jobs:
   primera_tarea:
@@ -6,7 +6,5 @@ jobs:
     steps:
       - name: Copiar el repo a la VM
         uses: actions/checkout@v2
-		
       - name: get version
         run: pip install pytest && pytest
-		
