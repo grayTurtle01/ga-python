@@ -1,0 +1,8 @@
+[project]
+name = "Proyecto FizzBuzz"
+version = "0.1.0"
+description = "Prueba la función FizzBuzz"
+dependencies = []
+[tool.black]
+line-length = 100
+

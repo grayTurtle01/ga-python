@@ -1,8 +1,8 @@
 fmt:
-	black main.py tests.py
+	ruff format .
 
 linter:
-	pylint main.py tests.py
+	pylint main.py test_fizzbuzz.py
 	
 tests:
-	pytest tests.py
+	pytest .
