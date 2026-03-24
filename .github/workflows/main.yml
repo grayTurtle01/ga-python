@@ -1,0 +1,11 @@
+name: "Hola Python"
+on: push
+jobs:
+  tarea_1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Copiar proyecto en la VM"
+        uses: actions/checkout@v2
+      - name: "Obtener version"
+        run:  python --version
